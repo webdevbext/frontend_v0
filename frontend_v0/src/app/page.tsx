@@ -7,7 +7,7 @@ import Preferred from '@/components/Home/preferred-plan';
 import Counter from '@/components/Home/Counter';
 import FaqQuestion from '@/components/Home/faq';
 export const metadata: Metadata = {
-  title: "Sustainable",
+  title: "BEXT",
 };
 
 export default function Home() {

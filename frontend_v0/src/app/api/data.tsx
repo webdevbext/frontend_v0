@@ -19,26 +19,26 @@ export const count = [
 export const cardData = [
     {
       iconUrl: '/images/build-amazing/beautiful-design.svg',
-      title: 'Beautiful designs premade',
-      description: 'Lorem ipsum dolor sit amet, consect etur adipiscing',
+      title: 'Critical Metal Recovery',
+      description: 'Sustainable extraction of valuable metals from e-waste and battery recycling streams.',
       link: '/',
     },
     {
       iconUrl: '/images/build-amazing/coded.svg',
-      title: 'Coded with much care & notes',
-      description: 'Lorem ipsum dolor sit amet, consect etur adipiscing',
+      title: 'Sustainable Fertilisers',
+      description: 'Chelated micronutrients with over 50% stability in neutral to alkaline soils.',
       link: '/',
     },
     {
       iconUrl: '/images/build-amazing/amazing.svg',
-      title: 'Amazing demos included',
-      description: 'Lorem ipsum dolor sit amet, consect etur adipiscing',
+      title: 'Industrial Water Treatment',
+      description: 'Efficient water softening and scaling control using biodegradable chelation chemistry.',
       link: '/',
     },
     {
       iconUrl: '/images/build-amazing/beautiful-design.svg',
-      title: 'Beautiful designs premade',
-      description: 'Lorem ipsum dolor sit amet, consect etur adipiscing',
+      title: 'Green Chemistry Innovation',
+      description: 'Originating from University of Adelaide research and supported by Australian Government funding.',
       link: '/',
     },
   ];

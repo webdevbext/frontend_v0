@@ -13,10 +13,10 @@ const Hero = () => {
                 data-aos-delay='200'
                 data-aos-duration='1000'>
                 <h1 className='text-white relative max-w-473'>
-                  Amazingly fexible, customizable and easy to use
+                  Turning Waste Biomass into High-Value Green Chemistry
                 </h1>
                 <button className='bg-white text-base font-normal text-primary py-3 px-12 rounded-lg mb-16 mt-8 transition-all duration-0.4s hover:bg-secondary hover:text-white'>
-                  Get Started
+                  Learn more about us
                 </button>
                 <div className='flex items-center mb-8'>
                   <svg
@@ -60,10 +60,10 @@ const Hero = () => {
                     <path d='M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z' />
                   </svg>
                 </div>
-                <p className='text-base font-normal text-white leading-7 pb-11 max-w-408'>
-                  It’s easy to set up and the support experience is the best and
-                  unparalleled comparatively.
+                <p className='text-base font-normal text-yellowCream leading-7 pb-11 max-w-408'>
+                  A low-cost, high-performance biodegradable chelating agent derived from renewable biomass, designed to replace harmful and non-biodegradable reagents across critical industrial applications.
                 </p>
+                {/*
                 <div className='flex items-center gap-6'>
                   <div>
                     <Image
@@ -114,6 +114,7 @@ const Hero = () => {
                     />
                   </div>
                 </div>
+                */}
               </div>
               <div
                 className="md:w-1/4 w-full md:-ml-16 -ml-0 relative z-1 before:absolute before:content-[''] before:bg-[url('/images/hero/grid-line.png')] before:bg-no-repeat before:w-24 before:h-24 before:-top-32 before:-right-16 lg:before:inline-block before:hidden after:content-[''] after:absolute after:bg-[url('/images/hero/circal.png')] after:bg-no-repeat after:w-[2.625rem] after:h-[2.625rem] after:top-10 after:-left-[8.25rem] xl:after:inline-block after:hidden"
@@ -122,7 +123,7 @@ const Hero = () => {
                 data-aos-duration='1000'>
                 <form>
                   <h6 className='text-white sm:text-[26px] leading-[2.11rem] text-xl font-bold pb-5'>
-                    Start the project
+                    Contact us
                   </h6>
                   <div className='grid md:grid-cols-2 grid-cols-1 gap-4 items-center mb-6'>
                     <div className='col-span-1'>
@@ -169,6 +170,7 @@ const Hero = () => {
                         placeholder='Write your thoughts here...'></textarea>
                     </div>
                   </div>
+                  {/*
                   <div className='flex items-start mb-6'>
                     <div className='flex items-center h-5'>
                       <input
@@ -179,6 +181,7 @@ const Hero = () => {
                         required
                       />
                     </div>
+                    
                     <label className='ms-2 text-base font-normal text-white dark:text-gray-300'>
                       I have read and acknowledge the{' '}
                       <a
@@ -188,7 +191,10 @@ const Hero = () => {
                       </a>
                       .
                     </label>
+                    
+
                   </div>
+                  */}
                   <button
                     type='submit'
                     className='text-secondary bg-LightApricot hover:bg-secondary focus:ring-4 hover:text-white focus:outline-hidden focus:ring-blue-300 font-normal rounded-lg text-base w-full px-5 py-2.5 text-center  transition-all duration-0.4s'>

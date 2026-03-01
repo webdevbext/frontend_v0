@@ -14,12 +14,11 @@ const BuildAmazing = ({ isSpace }: { isSpace: boolean }) => {
               data-aos-delay='200'
               data-aos-duration='1000'>
               <h2 className='text-secondary dark:text-white max-w-420 pb-8'>
-                Build amazing websites and landing pages with ease using
-                Sustaniable
+                Advancing Sustainable Industry with Green Chelation Technology
+                from BEXT Solutions
               </h2>
               <p className='text-base font-normal text-SlateBlue dark:text-darktext max-w-408'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elited do
-                eiusmod tempor incididunt.
+                BEXT Solutions commercialises a low-cost, high-performance biodegradable chelating agent derived from waste biomass, enabling cleaner metal recovery, water treatment, industrial cleaning and advanced fertilisers.
               </p>
               <div className='pt-6 flex flex-col gap-y-5'>
                 <div className='flex items-center gap-2'>
@@ -50,7 +49,7 @@ const BuildAmazing = ({ isSpace }: { isSpace: boolean }) => {
                   </svg>
 
                   <span className='text-base font-normal text-SlateBlue dark:text-darktext'>
-                    Easy Drag & Drop
+                    Biodegradable & Environmentally Safe
                   </span>
                 </div>
                 <div className='flex items-center gap-2'>
@@ -81,7 +80,7 @@ const BuildAmazing = ({ isSpace }: { isSpace: boolean }) => {
                   </svg>
 
                   <span className='text-base font-normal text-SlateBlue dark:text-darktext'>
-                    Powered by Elementor
+                    EDTA-Comparable Performance
                   </span>
                 </div>
                 <div className='flex items-center gap-2'>
@@ -112,13 +111,13 @@ const BuildAmazing = ({ isSpace }: { isSpace: boolean }) => {
                   </svg>
 
                   <span className='text-base font-normal text-SlateBlue dark:text-darktext'>
-                    Create new sections
+                    Derived from Renewable Waste Biomass
                   </span>
                 </div>
               </div>
               <div className='mt-8'>
                 <Link href='/' className='btn inline-flex items-center gap-3'>
-                  Get Started
+                  Learn About BEXT Solutions
                   <i className="bg-[url('/images/build-amazing/right-arrow.svg')] bg-no-repeat bg-contain w-4 h-3 inline-block"></i>
                 </Link>
               </div>

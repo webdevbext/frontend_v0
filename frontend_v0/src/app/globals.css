@@ -13,13 +13,15 @@
 */
 
 @theme {
-  --color-primary: #1358d8;
-  --color-darkprimary: #054ac8;
-  --color-lightPrimary: #3187f4;
-  --color-secondary: #102c46;
-  --color-SlateBlue: #547593;
+  --color-primary: #2C676E; 
+  --color-secondary: #1A3E42;
+  --color-darkprimary: #D68C45;
+  --color-LightApricot: #FFC9B9;
+  --color-lightPrimary: #4C956C;
+  --color-SlateBlue: #2C6E49;
+  --color-yellowCream: #FEFEE3;
+
   --color-AliceBlue: #f3f9fd;
-  --color-LightApricot: #f9c78f;
   --color-border: #233d55;
   --color-BorderLine: #ccd7e1;
   --color-darkmode: #021526;

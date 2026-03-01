@@ -62,7 +62,7 @@ const Header: React.FC = () => {
               alt='logo'
               width={160}
               height={50}
-              style={{ width: 'auto', height: 'auto' }}
+              // style={{ width: 'auto', height: 'auto' }}
               quality={100}
             />
           </Link>
