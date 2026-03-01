@@ -130,7 +130,7 @@ export default function ContactForm() {
       </div>
 
       {status === 'success' && (
-        <p className="text-white text-sm mb-3">Thanks — we’ll get back to you shortly.</p>
+        <p className="text-white text-sm mb-3">Thank you for getting in touch with us, we will get back to you shortly!</p>
       )}
       {status === 'error' && (
         <p className="text-white text-sm mb-3">Error: {error}</p>

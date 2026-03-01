@@ -13,8 +13,8 @@
 
 2. cd frontend_v0
 
-3. npm install @iconify/icons-ion @iconify/react aos next-themes nextjs-toploader
+3. npm install @iconify/icons-ion @iconify/react aos next-themes nextjs-toploader nodemailer
 
-4. npm install -D @tailwindcss/postcss @types/aos
+4. npm install -D @tailwindcss/postcss @types/aos @types/nodemailer
 
 5. npm run dev
