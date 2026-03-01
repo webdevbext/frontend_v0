@@ -12,11 +12,10 @@ const CardBox = () => {
             <div className='flex items-stretch flex-col gap-8 w-full'>
               <div className='mb-4'>
                 <h2 className='text-secondary dark:text-white max-w-446'>
-                  Work done by us to grow your revenue
+                  Advancing Circular Industry Through Green Chemistry
                 </h2>
                 <p className='text-SlateBlue dark:text-darktext text-base font-normal py-9 max-w-408'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elited do
-                  eiusmod tempor incididunt.
+                  BEXT Solutions develops and commercialises a biodegradable, high-performance chelating agent derived from renewable biomass to enable sustainable metal recovery, water treatment, and advanced agricultural applications.
                 </p>
                 <div className=''>
                   <Link href='/' className='btn'>

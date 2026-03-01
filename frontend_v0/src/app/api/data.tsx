@@ -47,19 +47,19 @@ export const cardData = [
     {
       src: '/images/work-grow/mobile-application.jpg',
       alt: 'work-grow',
-      title: 'Apex Mobile Application Development',
+      title: 'Critical Metal Recovery',
       slug: "portfolio-1"
     },
     {
       src: '/images/work-grow/weby-dashboard-design.jpg',
       alt: 'work-grow',
-      title: 'Weby Dashboard Design',
+      title: 'Sustainable Fertiliser Innovation',
       slug: "portfolio-2"
     },
     {
       src: '/images/work-grow/frontend-development.jpg',
       alt: 'work-grow',
-      title: 'Frontend Development',
+      title: 'Industrial Water & Cleaning Solutions',
       slug: "portfolio-3"
     },
     {

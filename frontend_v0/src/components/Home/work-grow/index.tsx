@@ -11,18 +11,19 @@ const WorkGrow = () => {
           <div className='grid md:grid-cols-2 grid-cols-1 gap-10'>
             <div className=''>
               <h2 className='text-secondary dark:text-white max-w-446'>
-                Work done by us to grow your revenue
+                Advancing Circular Industry Through Green Chemistry
               </h2>
               <p className='text-SlateBlue dark:text-darktext text-base font-normal py-9 max-w-408'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elited do
-                eiusmod tempor incididunt.
+                BEXT Solutions develops and commercialises a biodegradable, high-performance chelating agent derived from renewable biomass to enable sustainable metal recovery, water treatment, and advanced agricultural applications.
               </p>
+              {/*
               <div className=''>
                 <Link href='/' className='btn inline-flex items-center gap-3'>
                   Get Started
                   <i className="bg-[url('/images/build-amazing/right-arrow.svg')] bg-no-repeat bg-contain w-4 h-3 inline-block"></i>
                 </Link>
               </div>
+              */}
             </div>
             {boxData.slice(0, 3).map((item, index) => (
               <div
@@ -51,12 +52,14 @@ const WorkGrow = () => {
                       className='sm:text-[26px] leading-[2.11rem] text-20 text-white pb-6 font-bold max-w-356 inline-block'>
                       {item.title}
                     </Link>
+                    {/*
                     <Link
                       href={`/portfolio/${item.slug}`}
                       className='flex items-center gap-3 text-white sm:text-base text-sm font-normal group-hover:opacity-60'>
                       Learn More
                       <i className="bg-[url('/images/build-amazing/right-arrow.svg')] bg-no-repeat bg-contain w-4 h-3 inline-block transform transition-transform duration-300 ease-in-out group-hover:translate-x-1"></i>
                     </Link>
+                    */}
                   </div>
                 </div>
               </div>

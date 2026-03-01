@@ -29,7 +29,7 @@ const Footer: FC = () => {
                 alt='Company logo'
                 width={160}
                 height={50}
-                style={{ width: 'auto', height: 'auto' }}
+               // style={{ width: 'auto', height: 'auto' }}
                 quality={100}
               />
             </Link>
@@ -77,6 +77,9 @@ const Footer: FC = () => {
               </ul>
             </div>
           </div>
+
+          {/* OLD Footer Section */}
+          {/*}
           <div className='grid grid-cols-12 pt-10'>
             {Object.entries(sections).map(([sectionKey, items]) => {
               // Define column span based on index or sectionKey
@@ -118,12 +121,24 @@ const Footer: FC = () => {
                 </button>
               </div>
               <p className='text-base font-normal text-SlateBlue max-w-310 pt-3'>
-                © Copyright 2025. All rights reserved by{' '}
-                <Link
-                  href={'https://getnextjstemplates.com/'}
-                  className='hover:text-primary'>
-                  GetNextJs Themes
-                </Link>
+                © Copyright 2026. BEXT Solutions. All rights reserved.
+              </p>
+            </div>
+          </div>
+          */}
+          {/* New Footer Section (simplified)*/}
+          <div className='grid grid-cols-12 pt-10 items-center'>
+            {/* Left Side – Vision Statement */}
+            <div className='col-span-6'>
+              <p className='text-base font-medium text-white'>
+                Powering a cleaner future through sustainable chemistry and circular innovation.
+              </p>
+            </div>
+
+            {/* Right Side – Copyright */}
+            <div className='col-span-6 text-right'>
+              <p className='text-base font-normal text-SlateBlue'>
+                © Copyright 2026. BEXT Solutions. All rights reserved.
               </p>
             </div>
           </div>
