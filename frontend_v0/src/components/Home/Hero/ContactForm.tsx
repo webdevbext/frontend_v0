@@ -43,7 +43,7 @@ export default function ContactForm() {
 
       if (!res.ok) {
         const data = (await res.json().catch(() => null)) as { error?: string } | null
-        throw new Error(data?.error || 'Submission failed')
+        throw new Error(data?.error || 'Our system is currently experiencing issues. Please try again later.')
       }
 
       setStatus('success')
