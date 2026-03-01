@@ -116,7 +116,7 @@ const BuildAmazing = ({ isSpace }: { isSpace: boolean }) => {
                 </div>
               </div>
               <div className='mt-8'>
-                <Link href='/' className='btn inline-flex items-center gap-3'>
+                <Link href='/about' className='btn inline-flex items-center gap-3'>
                   Learn About BEXT Solutions
                   <i className="bg-[url('/images/build-amazing/right-arrow.svg')] bg-no-repeat bg-contain w-4 h-3 inline-block"></i>
                 </Link>
@@ -140,6 +140,7 @@ const BuildAmazing = ({ isSpace }: { isSpace: boolean }) => {
                     <p className='text-14 text-SlateBlue dark:text-darktext font-normal max-w-200 pt-3 pb-7'>
                       {card.description}
                     </p>
+                    {/*
                     <Link
                       href={card.link}
                       className='text-primary text-base font-normal flex items-center gap-3 transition-all group'>
@@ -150,6 +151,7 @@ const BuildAmazing = ({ isSpace }: { isSpace: boolean }) => {
                           backgroundImage: `url('/images/build-amazing/right-arrow-blue.svg')`,
                         }}></i>
                     </Link>
+                    */}
                   </div>
                 </div>
               ))}

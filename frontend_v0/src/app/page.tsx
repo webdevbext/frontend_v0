@@ -16,9 +16,9 @@ export default function Home() {
       <Hero/>
       <BuildAmazing isSpace={true} />
       <WorkGrow/>
-      <Preferred/>
-      <Counter/>
-      <FaqQuestion/>
+      {/* <Preferred/> */}
+      {/* <Counter/> */}
+      {/*<FaqQuestion/>*/}
     </main>
   )
 }

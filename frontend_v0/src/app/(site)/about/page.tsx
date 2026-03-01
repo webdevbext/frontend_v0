@@ -13,11 +13,11 @@ const page = () => {
     <>
         <HeroSub
             title="About Us"
-            description=""
+            description="Hello! We are BEXT Solutions, a sustainability-focused company dedicated to creating innovative solutions for a greener future. Our mission is to develop and implement sustainable technologies that address environmental challenges and promote responsible resource management. With a team of passionate experts, we strive to make a positive impact on the planet through our cutting-edge products and services. Join us on our journey towards a more sustainable world."
         />
-        <Counter/>
+        {/*<Counter/>*/}
         <WorkGrow/>
-        <BuildAmazing isSpace={false} />
+        {/*<BuildAmazing isSpace={false} />*/}
     </>
   )
 }
