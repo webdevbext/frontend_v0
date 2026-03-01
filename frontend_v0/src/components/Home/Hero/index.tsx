@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <>
-      <section className="relative overflow-x-clip top-0 bg-primary circalanimat before:content-[''] before:absolute before:bg-[url('/images/work-grow/work-line.png')] before:bg-no-repeat before:bg-contain before:w-44 before:h-20 before:bottom-40 lg:before:inline-block before:hidden">
+      <section className="relative overflow-x-clip top-0 bg-primary circalanimat">
         <div className='banner-shap it-wrapper'>
           <div className='container py-20'>
             <div className='flex flex-wrap'>
@@ -13,7 +13,7 @@ const Hero = () => {
                 data-aos-delay='200'
                 data-aos-duration='1000'>
                 <h1 className='text-white relative max-w-473'>
-                  Turning Waste Biomass into High-Value Green Chemistry
+                  Turning Waste Biomass into High-Value Biodegradable Green Reagents
                 </h1>
                 <button className='bg-white text-base font-normal text-primary py-3 px-12 rounded-lg mb-16 mt-8 transition-all duration-0.4s hover:bg-secondary hover:text-white'>
                   Learn more about us

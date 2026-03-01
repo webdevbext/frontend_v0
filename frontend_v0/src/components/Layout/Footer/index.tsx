@@ -126,8 +126,9 @@ const Footer: FC = () => {
             </div>
           </div>
           */}
-          {/* New Footer Section (simplified)*/}
+          {/* Simplified Footer Section */}
           <div className='grid grid-cols-12 pt-10 items-center'>
+            
             {/* Left Side – Vision Statement */}
             <div className='col-span-6'>
               <p className='text-base font-medium text-white'>
@@ -135,12 +136,18 @@ const Footer: FC = () => {
               </p>
             </div>
 
-            {/* Right Side – Copyright */}
+            {/* Right Side – Disclaimer + Copyright */}
             <div className='col-span-6 text-right'>
-              <p className='text-base font-normal text-SlateBlue'>
-                © Copyright 2026. BEXT Solutions. All rights reserved.
-              </p>
+              <ul>
+                <li className='text-base font-normal text-SlateBlue leading-8 hover:text-white'>
+                  <Link href='/disclaimer'>Disclaimer</Link>
+                </li>
+                <li className='text-base font-normal text-SlateBlue leading-8'>
+                  © Copyright 2026. BEXT Solutions. All rights reserved.
+                </li>
+              </ul>
             </div>
+
           </div>
         </div>
       </div>

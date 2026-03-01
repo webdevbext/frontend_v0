@@ -45,19 +45,19 @@ export const cardData = [
 
   export const boxData = [
     {
-      src: '/images/work-grow/mobile-application.jpg',
+      src: '/images/work-grow/metal-scraps-square.jpg',
       alt: 'work-grow',
       title: 'Critical Metal Recovery',
       slug: "portfolio-1"
     },
     {
-      src: '/images/work-grow/weby-dashboard-design.jpg',
+      src: '/images/work-grow/fertiliser-truck-square.jpg',
       alt: 'work-grow',
       title: 'Sustainable Fertiliser Innovation',
       slug: "portfolio-2"
     },
     {
-      src: '/images/work-grow/frontend-development.jpg',
+      src: '/images/work-grow/cleaning-glass-square.jpg',
       alt: 'work-grow',
       title: 'Industrial Water & Cleaning Solutions',
       slug: "portfolio-3"
